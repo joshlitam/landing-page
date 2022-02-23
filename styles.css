@@ -209,6 +209,8 @@ a:link {
 .footer {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px;
+    color: #f9faf8;
 }
