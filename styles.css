@@ -16,10 +16,6 @@ a:link {
     font-size: 18px;
 }
 
-.content-div {
-
-}
-
 .header, .initial-content, .information, .quote, .call-to-action, .footer {
     padding: 0 200px;
 }
@@ -150,6 +146,27 @@ a:link {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-content, .quote-author {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 18px;
 }
 
 .call-to-action {
