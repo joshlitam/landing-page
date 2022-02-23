@@ -88,7 +88,7 @@ a:link {
     background-color: #3882f6;
     color: white;
     padding: 5px 20px 5px;
-    border: 0px;
+    border-width: 0px;
     border-radius: 8px;
 }
 
@@ -172,5 +172,43 @@ a:link {
 .call-to-action {
 }
 
+.call-to-action-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+    border-radius: 6px;
+}
+
+.call-to-action-title {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-to-action-text {
+    color: #f9faf8;
+    font-size: 14px;
+}
+
+.call-to-action-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px 5px;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: white;
+    font-weight: bold;
+}
+
 .footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
 }
